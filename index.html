@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <title>Touch Nums</title>
+
+</head>
+
+<body onload="init()">
+    <h1>Touch Nums!</h1>
+    <div class="sky">
+        <button class='difficulty' onclick="easy(); ">Easy</button>
+        <button class='difficulty' onclick="medium(); ">Medium</button>
+        <button class='difficulty' onclick="hard(); ">Hard</button>
+    </div>
+    <div class="sky"> <button class='restart' onclick="restart()">Restart</button> </div>
+    <div class="timer sky">Time : 00:00:00</div>
+    <div>
+        <table class="sky" border="1" cellpadding="8">
+            <tbody class="board sky">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"> </script>
+    
+</body>
+
+</html>

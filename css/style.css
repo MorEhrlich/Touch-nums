@@ -1,0 +1,66 @@
+
+body {
+background: url('../img/snowymountains.png') center no-repeat;
+color: white;
+position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    }
+    
+
+.board td {
+    background: rgb(180, 137, 209);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: .3s;
+    font-size: 35px;
+ 
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+
+
+.difficulty {
+    background: white;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Crete Round', serif;
+   
+}
+
+.timer {
+    height:30px;
+    width: 240px;
+    background:rgb(45, 204, 177);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.restart {
+    background: white;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+}
+
+.sky {
+    margin: 0 auto;
+    text-align: center;
+    
+}
